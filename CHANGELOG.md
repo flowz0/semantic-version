@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/flowz0/semantic-version/compare/v1.0.0...v1.1.0) (2025-03-14)
+
+
+### Features
+
+* **script:** add consoleLog ([11f0274](https://github.com/flowz0/semantic-version/commit/11f02749089ce38372ba607dadd0ca0e54cff9a3))
+
 # 1.0.0 (2025-03-14)
 
 

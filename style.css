@@ -1,0 +1,17 @@
+body {
+  background: #000;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  padding-top: 8rem;
+}

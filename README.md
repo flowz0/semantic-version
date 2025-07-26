@@ -4,7 +4,7 @@
 Go to your GitHub profile **Settings** > **Developer settings** > **Personal access tokens**
 - Create **GITHUB_TOKEN** token
 - Select **repository**
-- Allow **Read** and **Write** access to actions
+- Allow **Read** and **Write** access to **actions** & **workflows**
 
 ## Step 2. GitHub Repository settings
 
@@ -49,7 +49,7 @@ In your `package.json`, set the `private` field to `true`. This indicates that y
 Create a `release.config.js` file in your project's root directory with the following configurations.
 ```
 module.exports = {
-  branches: ['main'],
+  branches: ['master'],
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
@@ -75,7 +75,7 @@ name: Release
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   release:

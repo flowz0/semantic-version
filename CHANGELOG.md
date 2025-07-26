@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/flowz0/semantic-version/compare/v1.1.0...v1.1.1) (2025-07-26)
+
+
+### Bug Fixes
+
+* update README.md ([2f8af17](https://github.com/flowz0/semantic-version/commit/2f8af173764690a743ce48cc10c72acbe47d33f6))
+
 # [1.1.0](https://github.com/flowz0/semantic-version/compare/v1.0.0...v1.1.0) (2025-03-14)
 
 
